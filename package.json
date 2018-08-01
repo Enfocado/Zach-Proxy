@@ -1,0 +1,28 @@
+{
+  "name": "zach-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MADZ-labs/Zach-Proxy.git"
+  },
+  "author": "Zach Coursey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MADZ-labs/Zach-Proxy/issues"
+  },
+  "homepage": "https://github.com/MADZ-labs/Zach-Proxy#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
