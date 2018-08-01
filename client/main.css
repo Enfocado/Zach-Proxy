@@ -1,7 +1,6 @@
 #projectInfo {
   display: block;
   position: relative;
-  border: 2px solid red;
 }
 
 #parent {
@@ -11,17 +10,14 @@
 #campaign {
   display: inline-block;
   text-align: left;
-  border: 2px solid blue;
 }
 
 #comment {
   display: block;
   text-align: left;
-  border: 2px solid orange;
 }
 
 #updates {
   display: block;
   position: relative;
-  border: 2px solid green;
 }
