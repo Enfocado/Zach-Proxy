@@ -8,10 +8,6 @@ const port = process.env.PORT || 3000;
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, 'client')));
 
-app.listen(port, () => {
-  `server running at port ${port}`
-});
-
 app.get('/project/:id', (req, res) => {
   let options = {
     url: `http://localhost:3001/project/${req.params.id}`,
@@ -69,4 +65,8 @@ app.get('/:project/:projectId/section/comments', (req, res) => {
       res.send(JSON.parse(body));
     // }
   });
+});
+
+app.listen(port, () => {
+  `server running at port ${port}`
 });
